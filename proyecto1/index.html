@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/estilo.css" />
+    <title>Pasteleria</title>
+  </head>
+  <body>
+    <!-- seccion menu de navegacion -->
+    <header class="header" id="inicio">
+      <nav class="menu-navegacion">
+        <a href="#">Home</a>
+        <a href="">Nosotros</a>
+        <a href="/Formulario contacto jquery/index.html">Contactos</a>
+      </nav>
+      <div class="contenedor title">
+        <h1>Somos la pasteleria de tus sueños</h1>
+        <p>
+          Queremos ofrecerles a nuestros clientes lo mejor de nosotros y
+          nuestras creaciones
+        </p>
+      </div>
+    </header>
+    <main>
+      <!-- seccion de nosotros -->
+      <section class="nosotros-contenedor" id="nosotros">
+        <h2 class="subtitulo">Nosotros</h2>
+        <div class="contenedornosotros">
+          <p>Nos construimos desde un puesto pequeño.</p>
+          <p>
+            Empezamos con mucha emocion!! Nunca dejamos de insistir y seguir!
+            Como me gustaba mucho las pasteleria, me puse hacer tortas y
+            alfajores y armamos un puesto en una feria . pero nuestra idea
+            siempre fue seguir y abrir nuestra pasteleria, asique armamos una
+            pequeña estrategia, le regalabamos globos a los nenes y a los papas
+            les dabamos cupones de descuento para productos para eventos. Asi,
+            de a poco, empezamos a tener ventas y comenzar con este increible
+            sueño.!!!
+          </p>
+        </div>
+      </section>
+      <!-- seccion de galeria -->
+      <section class="galeria" id="fotos">
+        <div class="contenedor">
+          <h2 class="subtitulo">Galeria</h2>
+          <div class="contenedor-galeria">
+            <img src="/imagenes/alfajor maicena.jpg" alt="" class="img.galeria"/>
+            <img src="/imagenes/panques.jpg" alt="" class="img.galeria" />
+            <img src="/imagenes/torta.jpg" alt="" class="img.galeria" />
+          </div>
+        </div>
+      </section>
+      <!-- seccion de formulario -->
+      <section class="contenedor" id="formulario">
+        <h2 class="subtitulo">Registrarme</h2>
+        <section class="form">
+          <form action="#" name="registration">
+            <label for="firstname">Nombre</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Ana"/>
+            <label for="lastname">Apellidos</label>
+            <input type="text" name="lastname" id="lastname" placeholder="lena"/>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="ana@lena.com"/>
+            <label for="password">Contraseña</label>
+            <input type="password"name="password" id="password"placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+            <button type="submit">Registrarme</button>
+          </form>
+        </section>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer id="contacto">
+      <div class="contenedor footer-content">
+        <div class="contact-us">
+          <h2 class="brand">Pasteleria Tito</h2>
+          <p>Somos expertos en la pasteleria</p>
+        </div>
+        <div class="social-media">
+          <a href="" class="social-media-icon">
+            <i class="bx bxl-facebook-circle"></i>
+          </a>
+          <a href="" class="social-media-icon">
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/logica.js"></script>
+  </body>
+</html>
